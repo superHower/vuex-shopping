@@ -1,7 +1,7 @@
 // user模块
 const state = {
   userInfo: {
-    name: 'zs',
+    name: '张三',
     age: 18
   },
   score: 80

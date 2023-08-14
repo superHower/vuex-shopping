@@ -23,6 +23,7 @@ export default {
     ...mapState(['count', 'title'])
   },
   methods: {
+
     handleInput (e) {
       const num = +e.target.value
       this.$store.commit('changeCount', num)

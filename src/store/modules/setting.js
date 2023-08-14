@@ -1,7 +1,7 @@
 // setting模块
 const state = {
   theme: 'light', // 主题色
-  desc: '测试demo'
+  desc: 'demo'
 }
 const mutations = {
   setTheme (state, newTheme) {
