@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import user from './modules/user'
 import setting from './modules/setting'
+import cart from '@/store/modules/cart'
 
 Vue.use(Vuex)// 插件安装
 
@@ -42,7 +43,8 @@ const store = new Vuex.Store({
   },
   modules: {
     user,
-    setting
+    setting,
+    cart
   }
 })
 
